@@ -69,7 +69,7 @@ header .headline{
 .main-visual {
   width: 100%;
   height: 300px;
-  background-image: url('/assets/skyky.jpg');
+  background-image: url('/assets/sky.jpg');
   background-size: cover;
   object-fit: cover;
   background-position: center;
