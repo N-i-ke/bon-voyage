@@ -1,24 +1,28 @@
-# README
+### Clone the repository
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```shell
+git clone https://github.com/N-i-ke/bon-voyage.git
+cd project
+```
 
-Things you may want to cover:
+### Check your Ruby version
 
-* Ruby version
+```shell
+ruby -v
+```
 
-* System dependencies
+The ouput should start with something like `ruby 3.2.2
 
-* Configuration
+If not, install the right ruby version using [rbenv](https://github.com/rbenv/rbenv) (it could take a while):
 
-* Database creation
+```shell
+rbenv install 1.2.0
+```
 
-* Database initialization
+### Install dependencies
 
-* How to run the test suite
+Using [Bundler](https://github.com/bundler/bundler) and [Yarn](https://github.com/yarnpkg/yarn):
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```shell
+bundle && yarn
+```
